@@ -4,7 +4,6 @@ import '../All_Widget/auth_scaffold.dart';
 
 class ForgotPasswordPage extends StatelessWidget {
   final bool showBack;
-
   const ForgotPasswordPage({super.key, required this.showBack});
 
   @override
