@@ -5,7 +5,6 @@ import 'social_auth_row.dart';
 
 class SignUpPage extends StatefulWidget {
   final bool showBack;
-
   const SignUpPage({super.key, required this.showBack});
 
   @override
