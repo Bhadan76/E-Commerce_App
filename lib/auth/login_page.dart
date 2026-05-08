@@ -8,7 +8,6 @@ import 'social_auth_row.dart';
 
 class LoginPage extends StatefulWidget {
   final bool showBack;
-
   const LoginPage({super.key, required this.showBack});
 
   @override
