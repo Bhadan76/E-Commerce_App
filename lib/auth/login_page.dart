@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import '../app_routes.dart';
-import '../visual_search/visual_search_page.dart';
 import '../All_Widget/auth_scaffold.dart';
 import 'forgot_password_page.dart';
 import 'sign_up_page.dart';
