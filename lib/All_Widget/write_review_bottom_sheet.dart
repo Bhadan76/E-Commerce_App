@@ -14,7 +14,6 @@ class WriteReviewBottomSheet extends StatefulWidget {
   @override
   State<WriteReviewBottomSheet> createState() => _WriteReviewBottomSheetState();
 }
-
 class _WriteReviewBottomSheetState extends State<WriteReviewBottomSheet> {
   int _rating = 0;
   final TextEditingController _reviewController = TextEditingController();
@@ -27,9 +26,9 @@ class _WriteReviewBottomSheetState extends State<WriteReviewBottomSheet> {
     _reviewController.dispose();
     super.dispose();
   }
-
   @override
   Widget build(BuildContext context) {
+
     // Determine if keyboard is open to adjust bottom padding
     final bottomInset = MediaQuery.of(context).viewInsets.bottom;
 
