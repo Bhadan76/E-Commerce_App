@@ -11,7 +11,6 @@ class AuthScaffold extends StatelessWidget {
     required this.title,
     required this.child,
   });
-
   @override
   Widget build(BuildContext context) {
     final width = MediaQuery.sizeOf(context).width;
