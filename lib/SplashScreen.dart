@@ -1,8 +1,7 @@
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'auth/login_page.dart';
+import 'app_routes.dart';
 
 
 class Splashscreen extends StatefulWidget {
@@ -18,12 +17,7 @@ class _SplashscreenState extends State<Splashscreen> {
     super.initState();
     Future.delayed(const Duration(seconds: 3), () {
       if (mounted) {
-        Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(
-            builder: (context) => const LoginPage(showBack: false),
-          ),
-        );
+        Navigator.pushReplacementNamed(context, AppRoutes.login);
       }
     });
   }

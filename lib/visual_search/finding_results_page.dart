@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
 
-class FindingResultsPage extends StatelessWidget {
+class FindingResultsPage extends StatefulWidget {
   const FindingResultsPage({super.key});
+
+  @override
+  State<FindingResultsPage> createState() => _FindingResultsPageState();
+}
+
+class _FindingResultsPageState extends State<FindingResultsPage> {
 
   @override
   Widget build(BuildContext context) {
