@@ -11,7 +11,6 @@ class WriteReviewBottomSheet extends StatefulWidget {
       builder: (context) => const WriteReviewBottomSheet(),
     );
   }
-
   @override
   State<WriteReviewBottomSheet> createState() => _WriteReviewBottomSheetState();
 }
