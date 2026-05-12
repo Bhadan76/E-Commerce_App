@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import '../All_Widget/auth_scaffold.dart';
-import '../visual_search/visual_search_page.dart';
 import 'social_auth_row.dart';
 
 class SignUpPage extends StatefulWidget {
@@ -11,7 +9,6 @@ class SignUpPage extends StatefulWidget {
   @override
   State<SignUpPage> createState() => _SignUpPageState();
 }
-
 class _SignUpPageState extends State<SignUpPage> {
   bool _hidePassword = true;
 
