@@ -19,7 +19,6 @@ class ProductCard extends StatelessWidget {
     required this.rating,
     this.isNew = false,
   });
-
   @override
   Widget build(BuildContext context) {
     return Container(
