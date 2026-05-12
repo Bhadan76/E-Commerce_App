@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-
 import 'Favorite_page/favorites_page.dart';
 import 'SplashScreen.dart';
 import 'app_routes.dart';
 import 'auth/login_page.dart';
-
 import 'bag_page/bag_screen.dart';
 import 'bag_page/checkout_page.dart';
 import 'bag_page/payment_methods_page.dart';
