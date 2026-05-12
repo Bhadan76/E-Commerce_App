@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../app_routes.dart';
 import '../visual_search/visual_search_page.dart';
 import '../All_Widget/auth_scaffold.dart';
 import 'forgot_password_page.dart';
@@ -65,7 +66,9 @@ class _LoginPageState extends State<LoginPage> {
           const SizedBox(height: 10),
           PrimaryAuthButton(
             label: 'LOGIN',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushReplacementNamed(context, AppRoutes.main);
+            },
           ),
           const SizedBox(height: 44),
           const Text(
@@ -88,18 +91,7 @@ class _LoginPageState extends State<LoginPage> {
             ),
           ),
           const SizedBox(height: 20),
-          TextButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (_) => const VisualSearchPage()),
-              );
-            },
-            child: const Text(
-              "Try Visual Search Flow (Figma Design)",
-              style: TextStyle(fontSize: 14, color: Color(0xFFDB3022), fontWeight: FontWeight.bold),
-            ),
-          ),
+
         ],
       ),
     );

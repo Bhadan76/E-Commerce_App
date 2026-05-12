@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../All_Widget/auth_scaffold.dart';
+import '../visual_search/visual_search_page.dart';
 import 'social_auth_row.dart';
 
 class SignUpPage extends StatefulWidget {
@@ -46,7 +47,9 @@ class _SignUpPageState extends State<SignUpPage> {
           const SizedBox(height: 20),
           PrimaryAuthButton(
             label: 'SIGN UP',
-            onPressed: () {},
+            onPressed: () {
+              // Navigator.push(context, MaterialPageRoute(builder: (context)=> const VisualSearchPage()));
+            },
           ),
           const SizedBox(height: 44),
           const Text(
